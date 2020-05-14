@@ -1,0 +1,98 @@
+h1{
+    text-align: center;
+    color:#cff948;
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline;
+}
+h5{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+table{
+    padding:20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:75%;
+    border-collapse: collapse;
+}
+tr td{
+    margin:30px;
+    padding:20px;
+    border:2px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+*{
+    font-family: Arial, sans-serif;
+    font-size: 16;
+}
+.tablehead{
+    font-weight: bold;
+    font-size: 24px;
+}
+#intro{
+    font-size: 24px;
+}
+#rules{
+    font-weight: bold;
+    font-size: 20px;
+    margin:12px;
+    padding:12px;
+}
+button{
+    margin-left: 90px;
+}
+@media(max-width:650px){
+    img{
+        width:95%
+    }
+}
+@media(max-width:620px){
+    table{
+        padding:12px;
+    }
+    tr td{
+        font-size:12px;
+        margin:10px;
+        padding:12px;
+    }
+    .tablehead{
+        font-size:16px ;
+    }
+    .col-2{
+        font-size: 10px;
+    }
+    .col-2>h3{
+        font-size: 14px;
+    }
+}
+.alert-heading{
+    text-align: center;
+}
+.alert-alert-success>p {
+    font-size: 18px;
+}
+#tournaments{
+    font-size: 22px;
+    font-weight: 500;
+}
+.row>h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#one{
+    background-color: navy;
+}
+@media(max-width:2101px){
+    #points>img {
+        widows: 90%;
+        height: auto;
+    }
+}

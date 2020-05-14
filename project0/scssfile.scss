@@ -1,0 +1,49 @@
+$backgroundcolor:lightgrey;
+$topmargin: 20px;
+#tablehead, #tenniscourt{
+    background-color: $backgroundcolor;
+}
+#points {
+    img{
+        display: block;
+        margin-left: auto;
+         margin-right: auto;
+         margin-top: 50px;
+    }
+    button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+#tenniscourt, .col-2>h2{
+    margin-top: $topmargin;
+}
+.grandslam{
+    display: grid;
+    grid-template-columns: auto auto;
+   div{
+       background-color: #cff948;
+       margin: 20px;
+       padding: 20px;
+       width: 80%;
+       @media(max-width: 800px){
+        grid-template-columns: auto;
+   }
+   p{
+       text-align: justify;
+    }
+    }
+}
+.row>.col-2{
+    background-color: greenyellow;
+    ul{
+        padding: 2vw;
+    }
+        h3, ul>li{
+            margin:3vh auto 3vh 0.5vw;
+        }
+}

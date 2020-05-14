@@ -1,0 +1,53 @@
+#tablehead, #tenniscourt {
+  background-color: lightgrey;
+}
+
+#points img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+#points button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#tenniscourt, .col-2 > h2 {
+  margin-top: 20px;
+}
+
+.grandslam {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grandslam div {
+  background-color: #cff948;
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
+}
+@media (max-width: 800px) {
+  .grandslam div {
+    grid-template-columns: auto;
+  }
+}
+.grandslam div p {
+  text-align: justify;
+}
+
+.row > .col-2 {
+  background-color: greenyellow;
+}
+.row > .col-2 ul {
+  padding: 2vw;
+}
+.row > .col-2 h3, .row > .col-2 ul > li {
+  margin: 3vh auto 3vh 0.5vw;
+}
+
+/*# sourceMappingURL=scssdile.css.map */
